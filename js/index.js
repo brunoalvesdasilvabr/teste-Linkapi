@@ -19,6 +19,7 @@ let myDoughnutChart = new Chart(ctx, {
         ]
     },
     options: {
+        cutoutPercentage:67,
         animation:{
             animateScale:true
         }

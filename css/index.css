@@ -3,7 +3,9 @@ body{
     box-sizing: border-box;
 }
 
-
+.navbar{
+    border-radius:0px !important;
+}
 .mynavbar{
     background-color: #5CB85C;
 

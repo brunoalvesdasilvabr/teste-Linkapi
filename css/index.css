@@ -163,6 +163,7 @@ width: 30px;
     height: 27% !important;
     margin-right: 25px;
     background-color: white;
+    margin-top:-9px !important;
 }
 
 @media only screen and (max-width: 1070px) {

@@ -1,0 +1,41 @@
+.mynavbar{
+    background-color: #5CB85C;
+
+}
+
+.mynavbar ul{
+    list-style: none;
+    margin-top: 14px;
+}
+.mynavbar ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+.mynavbar ul li a{
+    color:#FFFFFF;
+}
+
+.glyphicon{
+    color: white;
+    margin-left:11px;
+}
+.glyphicon:hover{
+   cursor: pointer;
+}
+
+.navbar-right img{
+    width: 34px;
+    position: absolute;
+    top: 8px;
+    right: 33px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.glyphiconimg{
+    position: absolute;
+    top: 17px;
+    right: 16px;
+}

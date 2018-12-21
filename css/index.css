@@ -157,13 +157,12 @@ width: 30px;
 .legendtrophy{
     margin-left: 47px !important;
 }
-
-#myChart{
-    width: 100% !important;
-    height: 27% !important;
-    margin-right: 25px;
+.chartdiv{
+    width: 225px;
+    height: 130px;
+     margin-top:-9px !important;
+     margin-right: 25px;
     background-color: white;
-    margin-top:-9px !important;
 }
 
 @media only screen and (max-width: 1070px) {

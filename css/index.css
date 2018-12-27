@@ -61,8 +61,9 @@ body{
  display: inline-block;
  box-sizing: border-box;
  border: 1px solid #ddd;
- 
 }
+ 
+
 
 
 .card p{
@@ -75,7 +76,7 @@ body{
 }
 
 header h3{
-    padding: 30px;
+    font-size: 21px;
     padding-left: 0;
     font-weight: 700;
 }
@@ -85,7 +86,7 @@ header h3{
     right: 0;
     position: absolute;
     top:52px;
-    margin-top: 28px;
+    margin-top: 18px;
 }
 
 .row{
@@ -179,11 +180,12 @@ width: 30px;
 .chartdiv{
     width: 94%;
     height: 252px;
-    margin-top: -9px;
     margin-right: 25px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
+    box-shadow: -1px -1px 57px -23px black;
+
 }
 
 #myChart {
@@ -255,6 +257,7 @@ margin-top: -11px !important;
     left: 40px;
    }
 
+  
    .table2 tr td{
     padding:0;
    }

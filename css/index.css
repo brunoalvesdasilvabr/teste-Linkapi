@@ -99,6 +99,10 @@ header h3{
     font-size: 9px;
 }
 
+tr th{
+    border-top: none !important;
+}
+
 tr td{
     background-color: white;
     padding: 12px;
@@ -169,10 +173,19 @@ width: 30px;
 
 
 
+@media only screen and (max-width: 1070px) {
+    .main{
+      width: 70%;
+    }
 
+    .asides{
+        width: 30%;
+    
+    }
+  }
   
 
-  @media only screen and (max-width:1000px){
+  @media only screen and (max-width:1048px){
     body{
           font-size: 9px;
       }
@@ -209,7 +222,7 @@ width: 30px;
 }
 
 
-@media only screen and (min-width:508px){
+@media only screen and (min-width:514px){
 
     .mynavbar ul li {
         display: inline;

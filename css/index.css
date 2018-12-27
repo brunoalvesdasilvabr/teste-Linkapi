@@ -187,12 +187,17 @@ width: 30px;
 }
 
 #myChart {
-    width: 69% !important;
-    height: 105% !important;
-    margin-left: 50px !important;
-    margin-top: -11px !important;
-  
+width: 60% !important;
+height: 105% !important;
+margin-left: 67px !important;
+margin-top: -11px !important;
 }
+
+
+
+
+
+
 
 .col-md-9{
     width:81%;

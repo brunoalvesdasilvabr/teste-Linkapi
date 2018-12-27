@@ -120,6 +120,11 @@ tr th{
 tr td{
     background-color: white;
     padding: 12px;
+
+}
+
+.table1 tr td:first-child{
+    width:59%;
 }
 
 .table{

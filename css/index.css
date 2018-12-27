@@ -85,6 +85,7 @@ header h3{
     right: 0;
     position: absolute;
     top:52px;
+    margin-top: 28px;
 }
 
 .row{
@@ -176,28 +177,55 @@ width: 30px;
     margin-left: 47px !important;
 }
 .chartdiv{
-    width: 225px;
-    height: 217px;
-     margin-top:-9px !important;
-     margin-right: 25px;
+    width: 94%;
+    height: 252px;
+    margin-top: -9px;
+    margin-right: 25px;
     background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
+#myChart {
+    width: 69% !important;
+    height: 105% !important;
+    margin-left: 50px !important;
+    margin-top: -11px !important;
+  
+}
 
+.col-md-9{
+    width:81%;
+}
 
-@media only screen and (max-width: 1070px) {
-    .main{
-      width: 70%;
+.colchange{
+    width:94% ;
+}
+
+.col-md-3{
+    width:28%;
+}
+
+@media only screen and (max-width:1311px){
+
+    .col-md-9{
+        width:73%;
     }
-
-    .asides{
-        width: 30%;
     
+    .colchange{
+        width:88% ;
     }
-  }
+
+}
+
+@media only screen and (max-width:1269px){
+.card{
+    width: 13%;
+}
+}
   
 
-  @media only screen and (max-width:1048px){
+  @media only screen and (max-width:1119px){
     body{
           font-size: 9px;
       }
@@ -231,6 +259,14 @@ width: 30px;
     padding: 2px;
     font-size: 10px;
   }
+
+  .chartdiv{
+    width: 361px;
+    height: 307px;
+     margin-top:-9px !important;
+     margin-right: 25px;
+    background-color: white;
+}
 }
 
 
@@ -244,11 +280,30 @@ width: 30px;
 
     }
 
+    @media only screen and (max-width:394px){
+        .chartdiv {
+            width: 274px;
+            height: 234px;
+            margin-top: -9px !important;
+            margin-right: 25px;
+            background-color: white;
+        }
+
+    }
+
     @media only screen and (max-width:320px){
 
       .mynavbar ul li {
         display: inline;
         padding: 2px;
         font-size: 8px;
+    }
+
+    .chartdiv {
+        width: 274px;
+        height: 234px;
+        margin-top: -9px !important;
+        margin-right: 25px;
+        background-color: white;
     }
 }
